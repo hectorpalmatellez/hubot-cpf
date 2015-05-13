@@ -1,0 +1,28 @@
+{
+  "name": "hubot-cpf",
+  "version": "1.0.0",
+  "description": "Generates a valid Brazilian CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hectorpalmatellez/hubot-cpf.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "cpf",
+    "brazil"
+  ],
+  "author": "Héctor Palma Téllez <hector@palmatellez.cl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hectorpalmatellez/hubot-cpf/issues"
+  },
+  "homepage": "https://github.com/hectorpalmatellez/hubot-cpf#readme",
+  "dependencies": {
+    "gerar-cpf": "1.3.0"
+  }
+}
