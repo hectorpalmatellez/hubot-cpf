@@ -1,6 +1,6 @@
 {
   "name": "hubot-cpf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a valid Brazilian CPF",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hectorpalmatellez/hubot-cpf.git"
+    "url": "https://github.com/hectorpalmatellez/hubot-cpf.git"
   },
   "keywords": [
     "hubot",
