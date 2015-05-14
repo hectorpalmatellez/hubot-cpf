@@ -1,6 +1,6 @@
 {
   "name": "hubot-cpf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generates a valid Brazilian CPF",
   "main": "index.js",
   "scripts": {
