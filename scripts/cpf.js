@@ -13,6 +13,6 @@ var gerarCpf = require('gerar-cpf');
 
 module.exports = function (robot) {
   robot.hear(/cpf/gi, function (res) {
-    res.send(':br: Um CPF: ' + gerarCpf() + ' :br:');
+    res.send(':flag-br: Um CPF: ' + gerarCpf() + ' :flag-br:');
   });
 };
