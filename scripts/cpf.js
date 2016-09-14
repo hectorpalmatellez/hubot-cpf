@@ -1,6 +1,6 @@
 // Description:
 //   Generates a valid CPF
-//   For full graphic impact, you must have an emoji with a Brazil flag called with :br:
+//   For full graphic impact, we use the built in emoji :flag-br:
 //
 // Commands:
 //   gerar cpf
@@ -12,7 +12,7 @@
 var gerarCpf = require('gerar-cpf');
 
 module.exports = function (robot) {
-  robot.hear(/cpf/gi, function (res) {
+  robot.respond(/cpf/gi, function (res) {
     res.send(':flag-br: Um CPF: ' + gerarCpf() + ' :flag-br:');
   });
 };
